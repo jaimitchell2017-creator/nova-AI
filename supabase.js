@@ -1,0 +1,1 @@
+import {createClient} from "https://esm.sh/@supabase/supabase-js@2";export const supabase=createClient("https://plnfedzthtwxlipqdqgo.supabase.co","sb_publishable_6jjOI5TSjkt8t_nxESQ2Ag_UawKkVwJ",{auth:{persistSession:true,autoRefreshToken:true,detectSessionInUrl:true}});export async function user(){return (await supabase.auth.getUser()).data.user}

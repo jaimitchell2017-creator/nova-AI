@@ -1,0 +1,2 @@
+# Security
+Use only the Supabase publishable key in browser code. Keep secret/service-role keys server-side. Use Row Level Security. Privileged device controls, antivirus, and binary builds require secure native/server backends.
